@@ -28,8 +28,7 @@ function makeGrid() {
 	
 	cell = canvas.find('td');
 	
-	// When td is clicked by the user, change color of td
-	cell.click(function() {
+		cell.click(function() {
 		// Select color input
 		console.log("changeColor is running!");
 		var color;
