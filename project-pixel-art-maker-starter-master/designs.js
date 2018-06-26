@@ -16,13 +16,13 @@ function makeGrid() {
 	
 	canvas.children().remove()
 	
-	for (x = 0; x < gridHeight; x++) {
+	for (m = 0; m < gridHeight; m++) {
 	canvas.append('<tr></tr>');
 	}
 	
 	rows = $('tr');
 	
-	for (y = 0; y < gridWidth; y++) {
+	for (n = 0; n < gridWidth; n++) {
 	rows.append('<td></td>');
 	} 
 	
